@@ -1,0 +1,12 @@
+openpyxl
+pandas
+xlrd
+xlwt
+matplotlib
+mplcursors
+scipy
+
+
+
+
+
