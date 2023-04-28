@@ -19,6 +19,10 @@ descri: 计算Choice导出的报表，并生成相关图像
 4. 在`config.py`中配置计算公式，公式的字面量是excel的第一列的值
 5. 在`draw/`文件夹中查看效果图，会合并一个干净的xlsx文件在根目录下
 
+config.py主要配置：
+![](./imgs/Snipaste_2023-04-28_15-41-05.png)
+
+
 # explain
 
 1. 将Choice导出的xls文件处理，导出为xlsx文件

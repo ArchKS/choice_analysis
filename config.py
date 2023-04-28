@@ -1,15 +1,16 @@
 XLSDIR = "xls"
 XLSXDIR = "xlsx"
 
-Need_Combine_Excel=False
 
 # 图片宽高、清晰度
 FGWIDTH = 13
 FGHEIGHT = 5
 FGDPI=150
 
+# 是否需要处理Excel
+Need_Combine_Excel=True
 # 截取时间长度
-Limit_Year = 10  # 截取后10列
+Limit_Year = 20  # 截取后10列
 
 
 
@@ -40,7 +41,7 @@ FORMULAS = {
     ]
 }
 
-
+# bar堆叠图
 STACK_FORMULAS = {
     "%资产性质": ["流动资产合计", "非流动资产合计"],
     "%资产细分": [
