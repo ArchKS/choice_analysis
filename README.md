@@ -6,13 +6,20 @@ descri: 计算Choice导出的报表，并生成相关图像
 ```
 
 # show
-![](./draw/L_600436_%E5%88%A9%E6%B6%A6%E7%9B%B8%E5%85%B3.png)
-![](./draw/L_600436_%E8%A7%84%E6%A8%A1%E5%A2%9E%E9%95%BF.png)
-![](./draw/L_600436_%E8%B4%B9%E7%94%A8%E7%9B%B8%E5%85%B3.png)
-![](./draw/S_600436_%E8%B5%84%E4%BA%A7%E7%BB%86%E5%88%86.png)
+![](./imgs/L_600436_%E5%88%A9%E6%B6%A6%E7%9B%B8%E5%85%B3.png)
+![](./imgs/L_600436_%E8%A7%84%E6%A8%A1%E5%A2%9E%E9%95%BF.png)
+![](./imgs/L_600436_%E8%B4%B9%E7%94%A8%E7%9B%B8%E5%85%B3.png)
+![](./imgs/S_600436_%E8%B5%84%E4%BA%A7%E7%BB%86%E5%88%86.png)
 
 
 # step
+1. 从choice里导出三张财务报表年表，按年排序
+2. 放入xls文件夹
+3. 执行`run.bat(windows)`文件
+4. 在`config.py`中配置计算公式，公式的字面量是excel的第一列的值
+5. 在`draw/`文件夹中查看效果图，会合并一个干净的xlsx文件在根目录下
+
+# explain
 
 1. 将Choice导出的xls文件处理，导出为xlsx文件
     1. 过滤不必要的字段，如`公告日期`
