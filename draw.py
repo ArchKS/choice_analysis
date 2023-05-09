@@ -2,7 +2,7 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-from config import FGHEIGHT, FGWIDTH,Define_Colors,FGDPI
+from config import FGHEIGHT, FGWIDTH, Define_Colors, FGDPI
 
 hasPercent = False
 # 根据计算结果绘制图像
@@ -18,12 +18,13 @@ def draw_plot(dict_map_data, pic_name, qcode):
     plt.figure(figsize=(FGWIDTH, FGHEIGHT), dpi=FGDPI)
 
     # 绘制折线图
-    color_index=0
+    color_index = 0
     for key, y in dict_map_data.items():
         color = Define_Colors[color_index]
-        color_index+=1
+        color_index += 1
         if key != 'Year':
-            plt.plot(x, y, label=key, linewidth=1.5,marker='o', linestyle='solid' , color=color)
+            plt.plot(x, y, label=key, linewidth=1.5,
+                     marker='o', linestyle='solid', color=color)
         for a, b in zip(x, y):
             plt.annotate(b, xy=(a, b), xytext=(a-0.1, b+0.14))
 
@@ -47,7 +48,7 @@ def draw_plot(dict_map_data, pic_name, qcode):
 
     # 显示图形
     # plt.show()
-    dirname="draw/"
+    dirname = "draw/"
     # 保存为图片
     os.makedirs(dirname, exist_ok=True)
 
@@ -67,9 +68,8 @@ def draw_stack_bar(data, x_labels, pic_name, qcode, is_percent=False):
     bottoms = np.zeros(N)
     bars = []
     bottoms = np.where(np.isnan(bottoms), 0, bottoms)
-    
-    # 预定义颜色列表
 
+    # 预定义颜色列表
 
     # 使用预定义的颜色列表替换原来的颜色列表
     colors = Define_Colors[:len(data)]
@@ -78,14 +78,20 @@ def draw_stack_bar(data, x_labels, pic_name, qcode, is_percent=False):
 
     # 绘制堆积柱状图并添加数据标签
     for idx, (category, values) in enumerate(list(data.items())):
-        values = np.where(np.isnan(values), 0, values)
-        bar = plt.bar(ind, values, width, bottom=bottoms, color=colors[len(data) - idx - 1])
+        for i, v in enumerate(values):
+            if  isinstance(v, int) or isinstance(v, float):
+                values[i] = abs(v)
+            elif np.nan(v):
+                values[i] = 0
+
+        bar = plt.bar(ind, values, width, bottom=bottoms,
+                      color=colors[len(data) - idx - 1])
         bars.append(bar[0])  # 只添加第一个矩形作为图例的代表
 
         for i, (rect, value) in enumerate(zip(plt.bar(ind, values, width, bottom=bottoms, color=colors[len(data) - idx - 1]), values)):
-            plt.text(rect.get_x() + rect.get_width() / 2, bottoms[i] + value / 2, f'{value}', ha='center', va='bottom')
-        
-        
+            plt.text(rect.get_x() + rect.get_width() / 2,
+                     bottoms[i] + value / 2, f'{value}', ha='center', va='bottom')
+
         bottoms = np.add(bottoms, values)
 
     # 添加 x 轴标签
@@ -97,13 +103,26 @@ def draw_stack_bar(data, x_labels, pic_name, qcode, is_percent=False):
 
     plt.xticks(ind, x_labels)
     max_high = int(np.max(bottoms))
-    plt.yticks(np.arange(0, max_high + 1, round(max_high/10)))
+
+    min_high = 0
+
+    step = 1
+
+    if all(x > 0 for x in bottoms):
+        min_high = 0
+        step = round((max_high)/10)
+    else:
+        int(np.min(bottoms))
+        step=1
+
+
+    plt.yticks(np.arange(min_high, max_high + 1, step))
     plt.legend(reversed(bars), reversed(data.keys()))
 
     # 显示图形
     # plt.show()
 
-    file_name = 'draw/'+pic_name+".png"
-    os.makedirs('draw/', exist_ok=True)
+    file_name='draw/'+pic_name+".png"
+    os.makedirs('draw/', exist_ok = True)
     print("Save Picture: " + file_name)
-    plt.savefig(file_name, bbox_inches='tight')
+    plt.savefig(file_name, bbox_inches = 'tight')

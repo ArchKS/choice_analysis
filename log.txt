@@ -1,0 +1,583 @@
+
+活动连接
+
+  协议  本地地址          外部地址        状态           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1228
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ 无法获取所有权信息
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1456
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING       1600
+  CDPSvc
+ [svchost.exe]
+  TCP    0.0.0.0:5100           0.0.0.0:0              LISTENING       8252
+ [python3.10.exe]
+  TCP    0.0.0.0:5173           0.0.0.0:0              LISTENING       33068
+ [node.exe]
+  TCP    0.0.0.0:5426           0.0.0.0:0              LISTENING       4
+ 无法获取所有权信息
+  TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING       23288
+ 无法获取所有权信息
+  TCP    0.0.0.0:8866           0.0.0.0:0              LISTENING       19788
+ [咚咚.exe]
+  TCP    0.0.0.0:9090           0.0.0.0:0              LISTENING       31448
+ [node.exe]
+  TCP    0.0.0.0:9092           0.0.0.0:0              LISTENING       31448
+ [node.exe]
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       948
+ [lsass.exe]
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       760
+ 无法获取所有权信息
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       1620
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       1892
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       2716
+  SessionEnv
+ [svchost.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING       4080
+ [spoolsv.exe]
+  TCP    0.0.0.0:49720          0.0.0.0:0              LISTENING       916
+ 无法获取所有权信息
+  TCP    0.0.0.0:54241          0.0.0.0:0              LISTENING       15764
+ [wpscloudsvr.exe]
+  TCP    127.0.0.1:4709         0.0.0.0:0              LISTENING       15764
+ [wpscloudsvr.exe]
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING       4604
+ [mDNSResponder.exe]
+  TCP    127.0.0.1:5354         127.0.0.1:49673        ESTABLISHED     4604
+ [mDNSResponder.exe]
+  TCP    127.0.0.1:5354         127.0.0.1:49674        ESTABLISHED     4604
+ [mDNSResponder.exe]
+  TCP    127.0.0.1:8071         0.0.0.0:0              LISTENING       7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:49670        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:49679        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:49681        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:49682        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61990        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61991        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61992        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61994        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61995        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61996        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:61999        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62001        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62002        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62003        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62008        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62009        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62010        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62011        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62012        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62013        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62014        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62015        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62016        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62017        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62018        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62019        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62020        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62021        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62023        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62026        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:8071         127.0.0.1:62029        ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:27015        0.0.0.0:0              LISTENING       4596
+ [AppleMobileDeviceService.exe]
+  TCP    127.0.0.1:29112        0.0.0.0:0              LISTENING       3588
+ [UniAccessAgent.exe]
+  TCP    127.0.0.1:29112        127.0.0.1:49778        ESTABLISHED     3588
+ [UniAccessAgent.exe]
+  TCP    127.0.0.1:49670        127.0.0.1:8071         ESTABLISHED     4640
+ [edr_monitor.exe]
+  TCP    127.0.0.1:49673        127.0.0.1:5354         ESTABLISHED     4596
+ [AppleMobileDeviceService.exe]
+  TCP    127.0.0.1:49674        127.0.0.1:5354         ESTABLISHED     4596
+ [AppleMobileDeviceService.exe]
+  TCP    127.0.0.1:49679        127.0.0.1:8071         ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    127.0.0.1:49681        127.0.0.1:8071         ESTABLISHED     7572
+ [edr_sec_plan.exe]
+  TCP    127.0.0.1:49682        127.0.0.1:8071         ESTABLISHED     7376
+ [sfupdatemgr.exe]
+  TCP    127.0.0.1:49778        127.0.0.1:29112        ESTABLISHED     8144
+ [UniSensitive.exe]
+  TCP    127.0.0.1:49932        127.0.0.1:49933        ESTABLISHED     7176
+ [Code.exe]
+  TCP    127.0.0.1:49933        127.0.0.1:49932        ESTABLISHED     7176
+ [Code.exe]
+  TCP    127.0.0.1:49936        0.0.0.0:0              LISTENING       7176
+ [Code.exe]
+  TCP    127.0.0.1:49998        0.0.0.0:0              LISTENING       3588
+ [UniAccessAgent.exe]
+  TCP    127.0.0.1:49999        0.0.0.0:0              LISTENING       3588
+ [UniAccessAgent.exe]
+  TCP    127.0.0.1:50074        127.0.0.1:59986        TIME_WAIT       0
+  TCP    127.0.0.1:50078        127.0.0.1:57644        TIME_WAIT       0
+  TCP    127.0.0.1:55108        127.0.0.1:55109        ESTABLISHED     16432
+ [Code.exe]
+  TCP    127.0.0.1:55109        127.0.0.1:55108        ESTABLISHED     16432
+ [Code.exe]
+  TCP    127.0.0.1:55112        0.0.0.0:0              LISTENING       16432
+ [Code.exe]
+  TCP    127.0.0.1:55738        127.0.0.1:57644        TIME_WAIT       0
+  TCP    127.0.0.1:55739        127.0.0.1:59986        TIME_WAIT       0
+  TCP    127.0.0.1:57644        0.0.0.0:0              LISTENING       7176
+ [Code.exe]
+  TCP    127.0.0.1:57644        127.0.0.1:50079        TIME_WAIT       0
+  TCP    127.0.0.1:57644        127.0.0.1:55740        TIME_WAIT       0
+  TCP    127.0.0.1:59986        0.0.0.0:0              LISTENING       22148
+ [Code.exe]
+  TCP    127.0.0.1:59986        127.0.0.1:50075        TIME_WAIT       0
+  TCP    127.0.0.1:59986        127.0.0.1:55741        TIME_WAIT       0
+  TCP    127.0.0.1:61990        127.0.0.1:8071         ESTABLISHED     34324
+ [sfavsvc.exe]
+  TCP    127.0.0.1:61991        127.0.0.1:8071         ESTABLISHED     34324
+ [sfavsvc.exe]
+  TCP    127.0.0.1:61992        127.0.0.1:8071         ESTABLISHED     34324
+ [sfavsvc.exe]
+  TCP    127.0.0.1:61994        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:61995        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:61996        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:61999        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62001        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62002        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62003        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62008        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62009        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62010        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62011        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62012        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62013        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62014        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62015        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62016        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62017        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62018        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62019        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62020        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62021        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62023        127.0.0.1:8071         ESTABLISHED     29180
+ [edr_agent.exe]
+  TCP    127.0.0.1:62026        127.0.0.1:8071         ESTABLISHED     30288
+ [sfavui.exe]
+  TCP    127.0.0.1:62029        127.0.0.1:8071         ESTABLISHED     34324
+ [sfavsvc.exe]
+  TCP    172.31.32.13:139       0.0.0.0:0              LISTENING       4
+ 无法获取所有权信息
+  TCP    172.31.32.13:7680      172.31.44.57:15292     TIME_WAIT       0
+  TCP    172.31.32.13:7680      172.31.85.33:58041     TIME_WAIT       0
+  TCP    172.31.32.13:49242     122.246.2.2:443        CLOSE_WAIT      2672
+ [系统]
+  TCP    172.31.32.13:49256     183.131.56.97:443      CLOSE_WAIT      1628
+ [系统]
+  TCP    172.31.32.13:49333     117.91.177.132:443     CLOSE_WAIT      1628
+ [系统]
+  TCP    172.31.32.13:49392     218.91.225.46:443      CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:49403     180.153.34.141:443     ESTABLISHED     13416
+ [咚咚.exe]
+  TCP    172.31.32.13:50061     23.200.74.193:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:50062     13.107.42.254:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:50063     13.107.4.254:443       ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:50085     172.31.218.50:8081     SYN_SENT        29180
+ [edr_agent.exe]
+  TCP    172.31.32.13:50099     96.7.97.152:443        ESTABLISHED     8728
+ [ctfmon.exe]
+  TCP    172.31.32.13:50100     180.101.50.188:80      TIME_WAIT       0
+  TCP    172.31.32.13:50123     122.246.2.1:443        CLOSE_WAIT      3856
+ [系统]
+  TCP    172.31.32.13:51026     112.29.198.100:80      CLOSE_WAIT      22280
+ [系统]
+  TCP    172.31.32.13:51027     150.139.227.101:443    CLOSE_WAIT      22280
+ [系统]
+  TCP    172.31.32.13:52393     172.31.218.50:8083     ESTABLISHED     7396
+ [ipc_proxy.exe]
+  TCP    172.31.32.13:52409     172.31.218.50:54120    ESTABLISHED     12320
+ [abs_deployer.exe]
+  TCP    172.31.32.13:52434     172.31.218.43:9988     ESTABLISHED     3588
+ [UniAccessAgent.exe]
+  TCP    172.31.32.13:52476     183.131.56.97:443      CLOSE_WAIT      11300
+ [系统]
+  TCP    172.31.32.13:52604     61.172.227.218:443     CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:52605     150.139.227.100:443    CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:52607     150.139.227.101:443    CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:52770     115.231.170.91:443     CLOSE_WAIT      11300
+ [系统]
+  TCP    172.31.32.13:52937     61.172.227.218:443     CLOSE_WAIT      2100
+ [系统]
+  TCP    172.31.32.13:53381     218.91.225.46:443      CLOSE_WAIT      2100
+ [系统]
+  TCP    172.31.32.13:53731     122.246.2.1:443        CLOSE_WAIT      22280
+ [系统]
+  TCP    172.31.32.13:55060     61.129.248.73:443      ESTABLISHED     13416
+ [咚咚.exe]
+  TCP    172.31.32.13:55234     110.43.90.34:443       CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:55235     110.43.90.34:443       CLOSE_WAIT      15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:55264     119.3.227.186:11113    ESTABLISHED     15764
+ [wpscloudsvr.exe]
+  TCP    172.31.32.13:55492     20.205.69.80:443       TIME_WAIT       0
+  TCP    172.31.32.13:55543     180.153.34.184:443     TIME_WAIT       0
+  TCP    172.31.32.13:55548     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:55630     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:55631     202.89.233.101:443     TIME_WAIT       0
+  TCP    172.31.32.13:55659     204.79.197.222:443     ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55660     202.89.233.101:443     ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55662     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55663     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55664     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55665     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55666     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55667     218.95.237.46:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55671     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:55672     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:55673     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:55722     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:55730     52.108.9.254:443       ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55731     52.123.129.254:443     ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55732     152.199.43.62:443      ESTABLISHED     34172
+ [SearchApp.exe]
+  TCP    172.31.32.13:55735     202.89.233.101:443     TIME_WAIT       0
+  TCP    172.31.32.13:55737     202.89.233.100:443     TIME_WAIT       0
+  TCP    172.31.32.13:56065     183.131.40.6:443       CLOSE_WAIT      22308
+ [系统]
+  TCP    172.31.32.13:56196     61.172.225.202:443     CLOSE_WAIT      22308
+ [系统]
+  TCP    172.31.32.13:57170     61.172.225.202:443     CLOSE_WAIT      18120
+ [系统]
+  TCP    172.31.32.13:58179     117.40.89.132:80       CLOSE_WAIT      22772
+ [系统]
+  TCP    172.31.32.13:58180     117.40.89.132:443      CLOSE_WAIT      22772
+ [系统]
+  TCP    172.31.32.13:58566     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:58711     20.198.162.78:443      ESTABLISHED     4716
+  WpnService
+ [svchost.exe]
+  TCP    172.31.32.13:59375     183.131.40.6:443       CLOSE_WAIT      22772
+ [系统]
+  TCP    172.31.32.13:59645     61.172.227.218:443     CLOSE_WAIT      3856
+ [系统]
+  TCP    172.31.32.13:59828     122.246.2.1:443        CLOSE_WAIT      18120
+ [系统]
+  TCP    172.31.32.13:61523     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:61524     202.89.233.101:443     TIME_WAIT       0
+  TCP    172.31.32.13:61526     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:61527     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:61530     61.129.248.73:443      TIME_WAIT       0
+  TCP    172.31.32.13:62184     117.91.177.220:443     CLOSE_WAIT      4484
+ [系统]
+  TCP    172.31.32.13:62846     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:63161     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:63531     59.56.23.134:443       CLOSE_WAIT      17092
+ [系统]
+  TCP    172.31.32.13:63667     183.131.56.98:443      CLOSE_WAIT      4484
+ [系统]
+  TCP    172.31.32.13:63894     61.129.248.73:443      ESTABLISHED     13416
+ [咚咚.exe]
+  TCP    172.31.32.13:63895     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:63896     74.125.204.188:5228    ESTABLISHED     23260
+ [chrome.exe]
+  TCP    172.31.32.13:63898     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:63899     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:63902     20.205.69.80:443       ESTABLISHED     27044
+ [Code.exe]
+  TCP    172.31.32.13:63912     202.96.209.133:53      TIME_WAIT       0
+  TCP    172.31.32.13:64555     150.139.227.101:80     CLOSE_WAIT      17092
+ [系统]
+  TCP    172.31.32.13:65319     115.231.170.100:443    CLOSE_WAIT      2672
+ [系统]
+  TCP    192.168.137.1:139      0.0.0.0:0              LISTENING       4
+ 无法获取所有权信息
+  TCP    192.168.137.1:50057    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:53715    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:54888    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:56636    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:57224    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:61535    0.0.0.0:0              LISTENING       28704
+ [alg.exe]
+  TCP    192.168.137.1:63893    202.96.209.133:53      TIME_WAIT       0
+  TCP    192.168.137.1:64538    202.96.209.133:53      TIME_WAIT       0
+  TCP    [::]:135               [::]:0                 LISTENING       1228
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ 无法获取所有权信息
+  TCP    [::]:3389              [::]:0                 LISTENING       1456
+  TermService
+ [svchost.exe]
+  TCP    [::]:5426              [::]:0                 LISTENING       4
+ 无法获取所有权信息
+  TCP    [::]:7680              [::]:0                 LISTENING       23288
+ 无法获取所有权信息
+  TCP    [::]:9092              [::]:0                 LISTENING       31448
+ [node.exe]
+  TCP    [::]:49664             [::]:0                 LISTENING       948
+ [lsass.exe]
+  TCP    [::]:49665             [::]:0                 LISTENING       760
+ 无法获取所有权信息
+  TCP    [::]:49666             [::]:0                 LISTENING       1620
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING       1892
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING       2716
+  SessionEnv
+ [svchost.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING       4080
+ [spoolsv.exe]
+  TCP    [::]:49720             [::]:0                 LISTENING       916
+ 无法获取所有权信息
+  TCP    [::]:54241             [::]:0                 LISTENING       15764
+ [wpscloudsvr.exe]
+  TCP    [::1]:5426             [::1]:49731            ESTABLISHED     4
+ 无法获取所有权信息
+  TCP    [::1]:5426             [::1]:49734            ESTABLISHED     4
+ 无法获取所有权信息
+  TCP    [::1]:5426             [::1]:49738            ESTABLISHED     4
+ 无法获取所有权信息
+  TCP    [::1]:5426             [::1]:49741            ESTABLISHED     4
+ 无法获取所有权信息
+  TCP    [::1]:49672            [::]:0                 LISTENING       5784
+ [jhi_service.exe]
+  TCP    [::1]:49731            [::1]:5426             ESTABLISHED     9940
+ [Razer Synapse Service Process.exe]
+  TCP    [::1]:49734            [::1]:5426             ESTABLISHED     9940
+ [Razer Synapse Service Process.exe]
+  TCP    [::1]:49738            [::1]:5426             ESTABLISHED     9940
+ [Razer Synapse Service Process.exe]
+  TCP    [::1]:49741            [::1]:5426             ESTABLISHED     9940
+ [Razer Synapse Service Process.exe]
+  UDP    0.0.0.0:53             *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                                    4620
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:3389           *:*                                    1456
+  TermService
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                                    4620
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                                    1600
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                                    24388
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    23260
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    3020
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                                    24388
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    23260
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    23260
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    24388
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    23260
+ [chrome.exe]
+  UDP    0.0.0.0:5353           *:*                                    24388
+ [chrome.exe]
+  UDP    0.0.0.0:5355           *:*                                    3020
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:49664          *:*                                    4604
+ [mDNSResponder.exe]
+  UDP    0.0.0.0:49669          *:*                                    4656
+ [QQProtect.exe]
+  UDP    0.0.0.0:53118          *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:53120          *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:57834          *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    0.0.0.0:58622          *:*                                    4656
+ [QQProtect.exe]
+  UDP    127.0.0.1:1900         *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:49666        *:*                                    4596
+ [AppleMobileDeviceService.exe]
+  UDP    127.0.0.1:49667        *:*                                    4596
+ [AppleMobileDeviceService.exe]
+  UDP    127.0.0.1:49668        *:*                                    5464
+  iphlpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:53117        *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:57835        *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    172.31.32.13:137       *:*                                    4
+ 无法获取所有权信息
+  UDP    172.31.32.13:138       *:*                                    4
+ 无法获取所有权信息
+  UDP    172.31.32.13:1900      *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    172.31.32.13:5353      *:*                                    4604
+ [mDNSResponder.exe]
+  UDP    172.31.32.13:53115     *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.137.1:67       *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    192.168.137.1:68       *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    192.168.137.1:137      *:*                                    4
+ 无法获取所有权信息
+  UDP    192.168.137.1:138      *:*                                    4
+ 无法获取所有权信息
+  UDP    192.168.137.1:1900     *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.137.1:5353     *:*                                    4604
+ [mDNSResponder.exe]
+  UDP    192.168.137.1:53116    *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:500               *:*                                    4620
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:547               *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    [::]:3389              *:*                                    1456
+  TermService
+ [svchost.exe]
+  UDP    [::]:4500              *:*                                    4620
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:5353              *:*                                    23260
+ [chrome.exe]
+  UDP    [::]:5353              *:*                                    3020
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:5353              *:*                                    24388
+ [chrome.exe]
+  UDP    [::]:5353              *:*                                    24388
+ [chrome.exe]
+  UDP    [::]:5353              *:*                                    23260
+ [chrome.exe]
+  UDP    [::]:5355              *:*                                    3020
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:49665             *:*                                    4604
+ [mDNSResponder.exe]
+  UDP    [::]:53119             *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    [::]:53121             *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:5353             *:*                                    4604
+ [mDNSResponder.exe]
+  UDP    [::1]:53114            *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::6521:a13a:72f7:a40%8]:1900  *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::6521:a13a:72f7:a40%8]:53112  *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::d9b1:adfa:a56b:f5e8%17]:53  *:*                                    3340
+  SharedAccess
+ [svchost.exe]
+  UDP    [fe80::d9b1:adfa:a56b:f5e8%17]:546  *:*                                    2188
+  Dhcp
+ [svchost.exe]
+  UDP    [fe80::d9b1:adfa:a56b:f5e8%17]:1900  *:*                                    11256
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::d9b1:adfa:a56b:f5e8%17]:53113  *:*                                    11256
+  SSDPSRV
+ [svchost.exe]

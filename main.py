@@ -94,6 +94,7 @@ def main():
     # 删除xlsx文件夹
     if Need_Combine_Excel:
         shutil.rmtree('./xlsx/')
+    print('如果存在负数，会将其转为正数计算')
 
 
 main()
